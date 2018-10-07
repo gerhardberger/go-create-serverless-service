@@ -5,8 +5,7 @@
 * AWS CLI already configured with at least PowerUser permission
 * [AWS SAM installed](https://docs.aws.amazon.com/lambda/latest/dg/serverless_app.html)
 * [Docker installed](https://www.docker.com/community-edition)
-* [Golang](https://golang.org)
-* [dep](https://github.com/golang/dep/)
+* [Golang (v1.11)](https://golang.org)
 
 ## Setup process
 
