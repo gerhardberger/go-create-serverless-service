@@ -17,8 +17,10 @@ $ make deps
 
 ### Building
 
+Build a specific function.
+
 ```shell
-$ make build
+$ make build name=foo
 ```
 
 ### Local development
