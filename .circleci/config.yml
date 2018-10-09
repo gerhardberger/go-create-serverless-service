@@ -23,4 +23,4 @@ jobs:
 
       # specify any bash command here prefixed with `run: `
       - run: make deps
-      - run: make test
+      - run: go test
