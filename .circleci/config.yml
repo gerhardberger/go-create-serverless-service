@@ -23,6 +23,7 @@ jobs:
       - checkout
 
       # specify any bash command here prefixed with `run: `
-      - run: docker-compose up
+      - run: docker-compose up -d
+      - run: ./scripts/docker/wait-for-it.sh localhost:5434 -t 30
       - run: GO111MODULE=on make deps
       - run: GO111MODULE=on make test
