@@ -23,5 +23,5 @@ jobs:
 
       # specify any bash command here prefixed with `run: `
       - run: export GO111MODULE=on
-      - run: make deps
-      - run: go test
+      - run: GO111MODULE=on make deps
+      - run: GO111MODULE=on go test
