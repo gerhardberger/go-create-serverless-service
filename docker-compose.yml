@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  db:
+    container_name: sample-db
+    networks:
+      sample-network:
+    image: cnadiminti/dynamodb-local:2017-02-16
+    ports:
+      - 5434:8000
+
+networks:
+  sample-network:
